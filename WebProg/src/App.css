@@ -1,0 +1,76 @@
+body {
+  background-size: cover;
+  background-color: rgb(8, 15, 13);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 80vh; 
+}
+
+.container {
+  background-color: rgb(231, 104, 216);
+  padding: 20px;
+  border-radius: 10px;
+  color: rgb(26, 21, 26); 
+  text-align: center; 
+}
+
+.home {
+  color: rgb(12, 9, 12);
+  font-size: 24px;
+  font-weight: bold; 
+}
+
+.create_form input {
+  width: 300px;
+  padding: 10px;
+  border: 2px solid purple; 
+  border-radius: 5px;
+  outline: none;
+}
+
+.create_form button {
+  padding: 10px;
+  background-color: rgb(214, 175, 214);
+  color: rgb(184, 18, 87);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  width: 345px;
+  justify-content: space-between;
+  background-color: rgb(91, 11, 99);
+  color: rgb(240, 16, 147);
+  height: 35px;
+  padding: 2px 5px 2px 5px;
+  margin-top: 10px; 
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox .icon {
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.task div span {
+  margin: 0px 5px 0px 4px;
+}
+
+.task div .icon {
+  cursor: pointer;
+  color:rgb(249, 62, 190);
+}
+
+.line_through {
+  text-decoration: line-through;
+  color: rgb(115, 28, 115);
+}
